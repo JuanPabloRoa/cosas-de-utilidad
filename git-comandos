@@ -23,5 +23,6 @@ git add README
 git commit -m "tu primer commit"
 
 git remote add origin 'direccion del repositorio en linea'
+git pull origin master//esto primero al crear un repositorio
 
 git push origin master
