@@ -1,0 +1,127 @@
+{% load staticfiles %}
+<link href="{% static "js/T4Fbootstrap.min.js" %}" rel="stylesheet">
+<!DOCTYPE html>
+<!-- saved from url=(0050)http://getbootstrap.com/examples/starter-template/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="{% static "images/T4Ftext-x-sql.ico"%}">
+
+    <title>Observatorio: Time For Fun Producciones</title>
+
+    
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    
+    <link href="http://getbootstrap.com/examples/starter-template/starter-template.css" rel="stylesheet">
+
+   
+    <script src="{% static "js/T4Fie-emulation-modes-warning.js" %}"></script><style type="text/css"></style>
+
+ 
+  </head>
+
+  <body>
+  
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Observatorio: Inicio</a>
+        </div>
+        <div id="navbar" class="collapse navbar-collapse">
+         <!-- <ul class="nav navbar-nav">
+            <li class="active"><a href="http://getbootstrap.com/examples/starter-template/#">Home</a></li>
+            <li><a href="http://getbootstrap.com/examples/starter-template/#about">About</a></li>
+            <li><a href="http://getbootstrap.com/examples/starter-template/#contact">Contact</a></li>
+          </ul>>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <div> 
+    <article class="col-md-4 box-padding left"> 
+          <br>
+                 <div class="panel panel-primary">
+            <div class="panel-heading"><strong><h2>Productora Time For Fun</h2></strong></div>
+      <div class="panel-body">
+       
+       <article class="col-md-0 box-padding left"> 
+        
+          <img src="{% static "images/t4f.jpg"%}" class="img-circle" alt="">
+       </article>
+       <br>
+
+        
+        <h3><p><strong>Twitter:</strong> <a href="https://twitter.com/t4f">@t4f</a></h3> 
+        
+        <h3><strong>Hashtag:</strong> #t4f</h3> 
+
+        <h3><strong>Sitio web:</strong> <a href="http://www.t4f.cl/"> www.t4f.cl</a></h3>
+
+        <h3 align="justify" ><strong>Información Relevante:</strong> La Productora más grande de Chile </h5>
+
+
+      </div>
+    </div>
+    </article>
+       <article class="col-md-8 box-padding right"> 
+          <br>
+          <br>
+          <br>
+          
+
+    <div class="panel panel-info">
+    <div class="panel-heading"><strong><h3>Información Obtenida de  los Tweets:</h3></strong></div>
+    <div class="panel-body">
+      <p>T4F, la productora más grande de Chile, te presenta sus estadísticas: </p>
+    </div>
+ 
+    <ul class="list-group">
+    <li class="list-group-item"><strong>Cantidad de Menciones:</strong></li>
+    <li class="list-group-item"><strong>Menciones Positivas:</strong></li>
+    <li class="list-group-item"><strong>Menciones Negativas:</strong></li>
+    <li class="list-group-item"><strong>País con más tweets hacia la productora:</strong></li>
+    </ul>
+    </div>
+
+
+    <div>
+{%for persona in personas%}
+<h2>{{persona.nombre_persona}}</h2>
+<p>{{persona.fecha_nacimiento}}</p>
+{% endfor %}
+</div>
+
+
+    </article>
+    </div>
+
+    <!--<div class="container">
+
+      <div class="starter-template">
+        <h1>Bootstrap starter template</h1>
+        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+      </div>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static "js/T4Fjquery.min.js" %}"></script>
+    <script src="{% static "js/T4Fbootstrap.min.js" %}"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="{% static "js/T4Fie10-viewport-bug-workaround.js" %}"></script>
+  
+
+</body></html>
