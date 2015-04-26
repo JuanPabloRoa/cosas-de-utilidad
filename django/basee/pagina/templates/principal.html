@@ -1,0 +1,406 @@
+{% load staticfiles %}
+<link href="{% static "js/bootstrap.min.js" %}" rel="stylesheet">
+<!DOCTYPE html>
+<!-- saved from url=(0049)http://coralwebservices.ca/ecstasy/index-alt.html -->
+<html lang="en" class=" js no-flexbox canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>Observatorio de Productoras Musicales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Responsive HTML5 One-page Template">
+    <meta name="author" content="Coral-Themes">
+    
+    <!-- make sure to put your favicon.ico in your root directory of your website -->
+    <!--<link href="favicon.ico" rel="shortcut icon" type="image/x-icon">-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="http://coralwebservices.ca/ecstasy/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="{% static "css/styles.css"%}">
+        <!-- the two fonts used in the template -->
+    <link href="{% static "css/css"%}" rel="stylesheet" type="text/css">
+    <link href="{% static "css/css(1)"%}" rel="stylesheet" type="text/css">
+    <script src="{% static "js/modernizr-2.5.3.min.js" %}"></script>
+
+</head>
+
+<body>
+  <div id="loader" style="display: none;"></div>
+  
+  
+<!-- LOGO SECTION               
+====================================================================== -->
+<!--<nav class="navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">  
+
+      <a class="" href="http://coralwebservices.ca/ecstasy/index.html">
+          <div id="logo-wrapper">
+	    <!-- logo image -->
+<!--            <img src="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/logo-sign.jpg" class="logo-letter-hide" alt="logo sign">
+	    <img src="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/logo.jpg" class="logo-sign-name" alt="logo">
+          </div>  
+      </a>
+      <!-- MENU ICON ON THE RIGHT -->
+<!--      <span id="openRightPush" class="menu-icon">
+        <span class="menu-text">MENU</span> <i class="fa fa-ellipsis-h transition"></i>
+      </span>
+
+    </div>
+
+  </div>
+</nav> -->
+<!-- LOGO SECTION END -->
+
+<!-- MENU SECTION START -->
+<!--mierda<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
+
+    <div class="container clearfix">
+      <ul class="menu-item-links">
+        <li class="dropdown">
+          <a href="http://coralwebservices.ca/ecstasy/index-alt.html#">Home</a>
+          <ul class="submenu-items transition">
+            <li><a href="http://coralwebservices.ca/ecstasy/index.html">Home 1</a></li>
+	    <li class="selected"><a href="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/Ecstasy - Responsive HTML5 Multi-purpose Template.html">Home 2</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="http://coralwebservices.ca/ecstasy/index-alt.html#">Services</a>
+          <ul class="submenu-items transition">
+            <li><a href="http://coralwebservices.ca/ecstasy/services.html">Services 1</a></li>
+	    <li><a href="http://coralwebservices.ca/ecstasy/services2.html">Services 2</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="http://coralwebservices.ca/ecstasy/index-alt.html#">About</a>
+          <ul class="submenu-items transition">
+            <li><a href="http://coralwebservices.ca/ecstasy/about.html">About Us</a></li>
+	    <li><a href="http://coralwebservices.ca/ecstasy/about2.html">About Us 2</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="http://coralwebservices.ca/ecstasy/index-alt.html#">Portfolio</a>
+          <ul class="submenu-items transition">
+            <li><a href="http://coralwebservices.ca/ecstasy/portfolio3.html">Masonry</a></li>
+            <li><a href="http://coralwebservices.ca/ecstasy/portfolio.html">Masonry 2</a></li>
+            <li><a href="http://coralwebservices.ca/ecstasy/portfolio-with-expander.html">Expander</a></li>
+          </ul>
+        </li>
+        <li><a href="http://coralwebservices.ca/ecstasy/contacts.html">Contacts</a></li>
+        
+      </ul>
+    </div>
+    <!-- MENU SEARCH FORM -->
+<!--     <form id="search-form" class="container" role="search">
+        <div class="input-group margin-bottom-sm col-xs-10 col-xs-offset-1 col-md-6 col-md-offset-3">
+          
+          <input class="form-control" type="text" placeholder="Search">
+          <span class="input-group-addon transition"><i class="fa fa-search fa-fw"></i></span>
+        </div>
+     </form>
+    
+    <!-- menu social icons -->
+ <!--   <div class="social-icons menu-social-icons col-sm-12 text-center">
+      <a href="http://coralwebservices.ca/ecstasy/index-alt.html#"><i class="fa fa-twitter fa-lg"></i></a>
+      <a href="http://coralwebservices.ca/ecstasy/index-alt.html#"><i class="fa fa-github fa-lg"></i></a>
+      <a href="http://coralwebservices.ca/ecstasy/index-alt.html#"><i class="fa fa-behance fa-lg"></i></a>
+      <a href="http://coralwebservices.ca/ecstasy/index-alt.html#"><i class="fa fa-google-plus fa-lg"></i></a>
+    </div>
+          
+</nav>
+<!-- END OF MENU -->
+
+<!-- SLIDESHOW SECTION               
+====================================================================== -->
+
+<div id="banner">
+      <div class="content-layer-alt text-center">	  
+	  <h3>Bienvenido a:</h3>
+	  <h2>OBSERVATORIO TUITERO DE PRODUCTORAS</h2>
+	 
+      </div>
+
+</div>
+<!-- END OF SLIDESHOW -->
+
+
+<!-- PROJECTS intro -->
+<!--dsaddddddd<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+      <article class="col-sm-6 col-md-5 col-md-offset-1 left">
+          <h2>BROWSE RECENT <strong>PROJECTS</strong></h2>
+      </article>
+      
+      <article class="col-sm-6 col-md-5 right">
+          <p class="border">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+	   <a href="http://coralwebservices.ca/ecstasy/portfolio3.html">more</a></p>
+      </article>
+   </section>
+</section>
+
+<!-- RECENT PROJECTS SECTION
+====================================================================== -->
+
+<!-- fdfd<section class="col-md-12 main-section-margins">
+
+      <!-- list of projects -->    
+<!--fsd      <section class="container">
+	    <ul id="portfolio-grid" class="grid-layout hover-effect" style="position: relative; height: 571.200012207031px;">
+		    <!-- PROJECT 1 -->
+<!--ffs	      	    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 entry logo web" style="position: absolute; left: 0px; top: 0px;">
+		      <figure>
+			  <img src="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/dp2.jpg" alt="img01" class="img-responsive">
+			  
+			  <div>
+			      <h4>Painting</h4>
+			      <span>Logo / Web Design</span>
+
+			      <a href="http://placehold.it/600x500" class="icon-btn home-btn icon-expand" data-lightbox="project7" data-title="My caption">
+				<i class="fa fa-expand"></i>
+			      </a>
+			  </div>
+			      
+		      </figure>
+		    </li>
+<!--fs		    <!-- PROJECT 2 -->
+<!--fs		    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 entry bi" style="position: absolute; left: 285px; top: 0px;">
+		      <figure>
+			  <img src="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/8.jpg" alt="img01" class="img-responsive">
+			  
+			    <div>
+				<h4>Featured Project</h4>
+				<span>Brand Identity</span>
+
+                                <a href="http://placehold.it/600x500" class="icon-btn home-btn icon-expand" data-lightbox="project1" data-title="My caption">
+                                  <i class="fa fa-expand"></i>
+                                </a>
+				
+			    </div>
+			  
+		      </figure>
+		    </li>
+		    <!-- PROJECT 3 -->
+<!--fsdf		    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 entry web" style="position: absolute; left: 570px; top: 0px;">
+		      <figure>
+			  <img src="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/3.jpg" alt="img01" class="img-responsive">
+			  
+			  <div>
+			      <h4>Twin Rabbits</h4>
+			      <span>Web Design</span>
+
+			      <a href="http://coralwebservices.ca/ecstasy/images/portfolio/item-2-lg.jpg" class="icon-btn home-btn icon-expand" data-lightbox="project2" data-title="My caption">
+				<i class="fa fa-expand"></i>
+			      </a>
+			  </div>
+				      
+		      </figure>
+		    </li>
+		    <!-- PROJECT 4 -->
+<!--fs		    <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 entry logo web" style="position: absolute; left: 855px; top: 0px;">
+		      <figure>
+			  <img src="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/dp3.jpg" alt="img01" class="img-responsive">
+			  
+			  <div>
+			      <h4>Painting</h4>
+			      <span>Logo / Web Design</span>
+
+			      <a href="http://placehold.it/600x500" class="icon-btn home-btn icon-expand" data-lightbox="project7" data-title="My caption">
+				<i class="fa fa-expand"></i>
+			      </a>
+			  </div>
+			      
+		      </figure>
+		    </li>
+		    <!-- PROJECT 5 -->
+<!--fsd		     <li class="col-xs-12 col-sm-6 col-md-4 col-lg-3 entry logo web" style="position: absolute; left: 285px; top: 285px;">
+		      <figure>
+			  <img src="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/1.jpg" alt="img01" class="img-responsive">
+			  
+			  <div>
+			      <h4>Painting</h4>
+			      <span>Logo / Web Design</span>
+
+			      <a href="http://placehold.it/600x500" class="icon-btn home-btn icon-expand" data-lightbox="project7" data-title="My caption">
+				<i class="fa fa-expand"></i>
+			      </a>
+			  </div>
+			      
+		      </figure>
+		    </li>
+		    <!-- PROJECT 6 -->
+<!--		    <li class="col-xs-12 col-sm-12 col-md-8 col-lg-6 entry web bi" style="position: absolute; left: 570px; top: 285px;">
+		      <figure>
+			  <img src="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/dp1.jpg" alt="img01" class="img-responsive">
+			  
+			  <div>
+			      <h4>Time Machine</h4>
+			      <span>Brand Identity / Web Design</span>
+
+			      <a href="http://placehold.it/600x500" class="icon-btn home-btn icon-expand" data-lightbox="project4" data-title="My caption">
+				<i class="fa fa-expand"></i>
+			      </a>
+			  </div>
+				      
+		      </figure>
+		    </li>
+
+		</ul>
+	    </section>
+    <div class="clearfix"></div>
+</section>
+<!-- PROJECTS END -->
+
+<!-- SERVICES INTRO          
+====================================================================== -->
+
+<section class="col-md-12 main-section-margins intro text-center">
+  <section class="container">
+    <article class="col-md-8 col-md-offset-2">
+        <h2 class="text-uppercase"> <strong>DESCRIPCIÓN	</strong> </h2>
+        <br/>
+        <p>Observatorio, dedicado a extraer información importante de twitter, a través de su "Hashtag". Con esto, las productoras musicales pueden tener un resgistro de reclamos, agradecimientos y sugerencias de las personas que escriben en esta red social.</p>
+    </article>
+  </section>
+</section>
+
+<!-- Services SECTION               
+====================================================================== -->
+<!--
+<section class="col-md-12 main-section-margins">
+  <section class="container box-blocks">
+    <!-- SERVICE BLOCK 1 -->
+<!--    <a href="http://coralwebservices.ca/ecstasy/services.html">
+      <article class="col-md-3 transition">
+	  <i class="fa fa-code fa-2x"></i>
+	  <h4>PRODUCTORA: TIME FOR FUN </h4>
+	  <span>ver estadísticas</span>
+      </article>
+    </a>
+    <!-- SERVICE BLOCK 2 -->
+<!--    <a href="http://coralwebservices.ca/ecstasy/services.html">
+      <article class="col-md-3 transition">
+	  <i class="fa fa-codepen fa-2x"></i>
+	  <h4>PRODUCTORA: DG MEDIOS </h4>
+	  <span>ver estadísticas</span>
+      </article>
+    </a>
+    <!-- SERVICE BLOCK 3 -->
+<!--    <a href="http://coralwebservices.ca/ecstasy/services.html">
+      <article class="col-md-3 transition">
+	  <i class="fa fa-empire fa-2x"></i>
+	  <h4>PRODUCTORA: LOTUS PRODUCCIONES</h4>
+	  <span>ver estadísticas</span>
+      </article>
+    </a>
+    <!-- SERVICE BLOCK 4 -->
+ <!--   <a href="http://coralwebservices.ca/ecstasy/services.html">
+      <article class="col-md-3 transition">
+	<i class="fa fa-signal fa-2x"></i>
+	<h4>PRODUCTORA: TRANSISTOR</h4>
+	<span>ver estadísticas</span>
+      </article>
+    </a>
+  </section>
+</section>
+
+
+<!-- PRODUCTORAS              
+====================================================================== -->
+ 
+
+<section class="col-md-12 main-section-margins intro">
+  <section class="container">
+
+    <!-- objective -->
+    
+
+    <article class="col-md-8 box-padding left">
+        <h2 class="text-uppercase"><strong>DG Medios</strong></h2>
+        <p>Empresa destinada a la realización y producción de eventos, conciertos y shows masivos! Podrás tener acceso a información de ella utilizando el hashtag #DGMedios.</p> 
+      <a href='/DGmedios' class="btn">Más Información</a>
+    </article>
+
+    
+
+	<div class="col-xs-3 col-sm-2 col-md-4">
+	  <a href="./Ecstasy - Responsive HTML5 Multi-purpose Template_" data-lightbox="footer-gallery" data-title="My caption">
+	<img src="{% static "images/logoDG.png"%}" class="img-responsive" alt="">
+	      </a>
+	    </div>
+
+   </section>
+
+
+    <div>
+      <section class="container">
+    <article class="col-md-8 box-padding left">
+        <h2 class="text-uppercase"><strong>Lotus</strong></h2>
+        <p> Conocida por ser la productora oficialde Lollapalooza Chile, y encargada espectáculos masivos de primera línea en Chile. Podrás obtener información de ellos, utilizando el hashtag #lotus </p><a href="/Lotus" class="btn">Más Información</a>
+        
+    </article>
+    
+    <div class="col-xs-3 col-sm-2 col-md-4">
+    <a href="./Ecstasy - Responsive HTML5 Multi-purpose Template_" data-lightbox="footer-gallery" data-title="My caption">
+  <img src="{% static "images/lotus.jpg"%}" class="img-responsive" alt="">
+        </a>
+      </div>
+</section>
+     </div>
+
+
+  <div>
+    <section class="container">
+    <article class="col-md-8 box-padding left">
+        <h2 class="text-uppercase"><strong>Time4Fun</strong></h2>
+        <p> Compañía de entretenimiento en vivo más grande de Sudamérica. Puedes revisar su información, utilizando el hastag #t4f. </p><a href="/T4F" class="btn">Más Información</a>
+
+    </article>
+
+	<div class="col-xs-3 col-sm-2 col-md-4">
+	  <a href="./Ecstasy - Responsive HTML5 Multi-purpose Template_files/lollapalooza_chile_2012.jpg" data-lightbox="footer-gallery" data-title="fiesta">
+	<img src="{% static "images/Time_For_Fun.jpg" %}" class="img-responsive" alt="">
+	      </a>
+	    </div>
+      </section>
+
+	</div>	
+
+
+<!-- why you choose us section -->
+
+<section class="col-md-12 main-section-margins main-section-padding dark-bg intro">
+  <section class="container">
+    <header class="col-sm-12 text-center">
+      <h2 class="text-uppercase">Por qué <strong>ELEGIRNOS! </strong></h2>
+    </header>
+    <footer class="item-blocks">
+      <!-- BLOCK 1 -->
+      <article class="col-md-4">
+	<h4><span class="number">1/</span> Accesible</h4>
+	<p>A sólo un click de conocer tu información.</p>
+      </article>
+      <!-- BLOCK 2 -->
+      <article class="col-md-4">
+	<h4><span class="number">2/</span> Simple</h4>
+	<p>Diseño simple, para que no te pierdas. </p>
+      </article>
+      <!-- BLOCK 3 -->
+      <article class="col-md-4">
+	<h4><span class="number">3/</span> MULTI-Productoras</h4>
+	<p>Información de 3 productoras distintas.</p>
+      </article>
+      <!-- BLOCK 4 -->
+      <article class="col-md-4">
+	<h4><span class="number">4/</span> Clásico</h4>
+	<p>Utilizamos lo que twitter presenta, pero de una forma más sencilla.</p>
+      </article>
+      <!-- BLOCK 5 -->
+      <article class="col-md-4">
+	<h4><span class="number">5/</span> Reutilización de Información</h4>
+	<p>Puedes decidir si ir o no a tu espectáculo.</p>
+      </article>
+      <!-- BLOCK 6 -->
+      <article class="col-md-4">
+	<h4><span class="number"></span> Acerca de Nosotros</h4>
+	<p>Grupo de Trabajo para Base de Datos :D</p>
+      </article>
+    </footer>
+  </section>
+</section>
